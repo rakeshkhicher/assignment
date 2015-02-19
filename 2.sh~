@@ -1,0 +1,3 @@
+(cp assignment.log xassign.log)
+(ls | head -4 | xargs -I{} mv {} ./public_html)
+(mv xassign.log assignment.log)
