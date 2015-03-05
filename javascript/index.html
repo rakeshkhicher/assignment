@@ -1,0 +1,31 @@
+<html>
+<head>
+
+<script type = "text/javascript" src="jscript.js"></script>
+</head>
+
+
+
+
+
+<body>
+<form id="myform">
+
+<label>enter equation:<input type="text" name="equation" id="equation"/></label>
+<input type="button" value="parse" onclick="parse1()">
+
+<br><label>constant of x:<input type="text" value="" id="x_const" size="1" readonly="true"/></label>
+<br><label>constant of y:<input type="text" value="" id="y_const" size="1" readonly="true"/></label>
+<br><label>constant value:<input type="text" value="" id="const_value" size="1" readonly="true"/></label>
+
+
+<br><input type="button" value="draw graph" onclick="graph_draw()">
+<br><label>min value of x:<input type="text" value="" id="x_min" size="1" readonly="true"/></label>
+<br><label>max value of x:<input type="text" value="" id="x_max" size="1" readonly="true"/></label>
+<br><label>step value :<input type="text" value="" id="step" size="1" readonly="true"/></label>
+<br><canvas id="myCanvas" width="500" height="500"></canvas>
+</form>
+
+</body>
+
+<html>
